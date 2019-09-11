@@ -1710,7 +1710,9 @@
 	p {
         margin: 0 0 2em 0;
         font-size: 1.2em;
-	}
+    }
+    
+
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 700;
@@ -3165,7 +3167,7 @@
 			}
 
 		.wrapper.style2 {
-			background-color: #3498db;
+			background-color: #313436;
 			color: #aed6f1;
 		}
 
