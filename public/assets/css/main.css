@@ -8,7 +8,62 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
-/* Reset */
+
+    #myProgressPython {
+        width: 100%;
+        background-color: grey;
+    }
+    
+    #myBarPython {
+        width: 90%;
+        height: 30px;
+        background-color:#0ABF46;
+    }
+
+    #myProgressCpp {
+        width: 100%;
+        background-color: grey;
+    }
+    
+    #myBarCpp {
+        width: 80%;
+        height: 30px;
+        background-color:#0ABF46;
+    }
+
+    #myProgressJavascript {
+        width: 100%;
+        background-color: grey;
+    }
+    
+    #myBarJavascript {
+        width: 75%;
+        height: 30px;
+        background-color:#0ABF46;
+    }
+
+    #myProgressJava {
+        width: 100%;
+        background-color: grey;
+    }
+    
+    #myBarJava {
+        width: 65%;
+        height: 30px;
+        background-color:#0ABF46;
+    }
+
+    #myProgressGithub {
+        width: 100%;
+        background-color: grey;
+    }
+    
+    #myBarGithub {
+        width: 95%;
+        height: 30px;
+        background-color:#0ABF46;
+    }
+
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -1722,7 +1777,7 @@
 		}
 
 	h4 {
-		font-size: 1.5em;
+        font-size: 1.5em;
 	}
 
 	h5 {
@@ -1794,7 +1849,8 @@
 	}
 
 	.align-center {
-		text-align: center;
+        text-align: center;
+        margin-bottom: 2em;
 	}
 
 	.align-right {
@@ -1819,7 +1875,8 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #000;
-	}
+    }
+
 
 	blockquote {
 		border-left-color: rgba(0, 0, 0, 0.1);
