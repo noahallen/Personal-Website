@@ -3169,7 +3169,8 @@
 		.wrapper.style2 {
             /* background-color: #313436; */
             background-color: #2C2C2C;
-			color: #aed6f1;
+			/* color: #aed6f1; */
+			color: #FFFFFF;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -3214,8 +3215,8 @@
 			.wrapper.style2 input[type="button"],
 			.wrapper.style2 button,
 			.wrapper.style2 .button {
-				background-color: #fff;
-				color: #3498db !important;
+				background-color: rgb(0, 95, 184);
+				color: #FFFFFF !important;
 			}
 
 				.wrapper.style2 input[type="submit"].alt,
@@ -3348,7 +3349,7 @@
 			}
 
 			.wrapper.style2 ul.alt li {
-				border-top-color: rgba(255, 255, 255, 0.25);
+				border-top-color: rgba(0, 0, 0, 0.25);
 			}
 
 			.wrapper.style2 header p {
@@ -3935,7 +3936,7 @@
 		}
 
 		#footer .copyright {
-			color: #bfbfbf;
+			color: #2C2C2C;
 			font-size: 0.9em;
 			margin: 0 0 2em 0;
 			padding: 0;
@@ -3944,7 +3945,7 @@
 
 			#footer .copyright .icons a {
 				border-radius: 100%;
-				box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 4px #fff, 0px 0px 0px 5px rgba(0, 0, 0, 0.1);
+				box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3px #2C2C2C, 0px 0px 0px 5px rgba(0, 0, 0, 0.1);
 				display: block;
 				font-size: 1em;
 				height: 3em;
