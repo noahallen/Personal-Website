@@ -213,13 +213,29 @@
 									</div>
 									<h4>VR Controlled Drone</h4>
 									<p>
-										We designed a motion controlled drone that uses a Leap Motion VR Hand Sensor in order detect and 
-										track a users hand. The hand sensor allows us to take relative coordinates of your hand in 3D space
-										and convert them into commands that can then be sent to a Tello Drone over wifi. In order to send 
-										the coordinates from the hand sensor to the drone we had to use a local websocket that posted and 
-										received data from the two different program files.
+										We designed a motion-controlled drone that uses a Leap Motion VR Hand Sensor in order to detect and track a user's hand. 
+										The hand sensor allows us to take relative coordinates of your hand in 3D space and convert them into commands that can 
+										then be sent to a Tello Drone over wifi. In order to send the coordinates from the hand sensor to the drone, we had to 
+										use a local WebSocket that posted and received data from the two different program files.
 									</p>
 									<a href="https://github.com/noahallen/VR-Controlled-Drone" class="button" target="_blank">Learn More</a>
+								</div>
+
+								<!-----VR Hand Painting Program----->
+								<div class="col align-center">
+									<div> 
+										<iframe width="420" height="250" src="https://www.youtube.com/embed/pwwxRTZSINU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope" allowfullscreen></iframe>
+									</div>
+									<h4>VR Hand Painting Program</h4>
+									<p>
+									The inspiration behind this VR Hand Painting project was a mix between making a covid friendly project (no touching required), 
+									as well as using a newly acquired VR Hand Sensor. What this program does is it allows the user to draw any image they want 
+									while only using the motion of their hand. By using a Leap Motion VR Hand Sensor, we were able to feed live coordinates 
+									to a local WebSocket since our two files were coded in different versions of Python (python2.7 and python3). From there,
+									we built a GUI using pygame in python and used a mixture of coordinate manipulation and different algorithms to successfully 
+									make this smooth running GUI.
+									</p>
+									<a href="https://github.com/noahallen/VR-Drawing-Cutiehack" class="button" target="_blank">Learn More</a>
 								</div>
 
 								<!-----A++ Learning----->
